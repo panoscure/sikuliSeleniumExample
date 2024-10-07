@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="QAAU23_34_cancelBingoBingo">
+    <test name="QAAU23_34_cancelBingoBingo">
+        <classes>
+            <class name="com.intralot.qa.automation.base.test.BaseSetupForApplication"/>
+            <class name="com.intralot.qa.automation.test.suites.terminal.cancel.cancelBingoBingoAddons">
+                <methods>
+                    <include name="QAAU23_34"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

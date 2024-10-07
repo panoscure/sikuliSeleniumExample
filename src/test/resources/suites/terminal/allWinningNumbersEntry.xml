@@ -1,0 +1,83 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="allWinningNumbersEntry">
+    <test name="QAAU23_1568_Validate_3_Digit">
+        <classes>
+            <class name="com.intralot.qa.automation.base.test.BaseSetupForApplication"/>
+            <class name="com.intralot.qa.automation.test.suites.desktopweb.winningColumnsEntry.pay3DTicket">
+                <methods>
+                    <include name="QAAU23_1568"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="QAAU23_1569_Validate_4_Digit">
+        <classes>
+            <class name="com.intralot.qa.automation.base.test.BaseSetupForApplication"/>
+            <class name="com.intralot.qa.automation.test.suites.desktopweb.winningColumnsEntry.validate4DTicket">
+                <methods>
+                    <include name="QAAU23_1569"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="QAAU23_1570_Validate_39mark5">
+        <classes>
+            <class name="com.intralot.qa.automation.base.test.BaseSetupForApplication"/>
+            <class name="com.intralot.qa.automation.test.suites.desktopweb.winningColumnsEntry.validate39Mark5">
+                <methods>
+                    <include name="QAAU23_1570"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="QAAU23_1571_Validate_49mark6">
+        <classes>
+            <class name="com.intralot.qa.automation.base.test.BaseSetupForApplication"/>
+            <class name="com.intralot.qa.automation.test.suites.desktopweb.winningColumnsEntry.validate49mark6">
+                <methods>
+                    <include name="QAAU23_1571"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="QAAU23_1572_Validate_BingoBingo">
+        <classes>
+            <class name="com.intralot.qa.automation.base.test.BaseSetupForApplication"/>
+            <class name="com.intralot.qa.automation.test.suites.desktopweb.winningColumnsEntry.validateBingoBingoHighWinner">
+                <methods>
+                    <include name="QAAU23_1572"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="QAAU23_1573_Validate_Loto6_from_49">
+        <classes>
+            <class name="com.intralot.qa.automation.base.test.BaseSetupForApplication"/>
+            <class name="com.intralot.qa.automation.test.suites.desktopweb.winningColumnsEntry.validateLoto6From49">
+                <methods>
+                    <include name="QAAU23_1573"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="QAAU23_1574_Validate_Super_Loto_With_Exchange">
+        <classes>
+            <class name="com.intralot.qa.automation.base.test.BaseSetupForApplication"/>
+            <class name="com.intralot.qa.automation.test.suites.desktopweb.winningColumnsEntry.validateSuperLotoWithExchange">
+                <methods>
+                    <include name="QAAU23_1574"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="QAAU23_1575_ValidationLoto5From39">
+        <classes>
+            <class name="com.intralot.qa.automation.base.test.BaseSetupForApplication"/>
+            <class name="com.intralot.qa.automation.test.suites.desktopweb.winningColumnsEntry.validationLoto5From39">
+                <methods>
+                    <include name="QAAU23_1575"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

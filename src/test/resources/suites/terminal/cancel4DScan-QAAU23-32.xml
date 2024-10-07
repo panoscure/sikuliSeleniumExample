@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="QAAU23_32_cancel4D">
+    <test name="QAAU23_32_cancel4D">
+        <classes>
+            <class name="com.intralot.qa.automation.base.test.BaseSetupForApplication"/>
+            <class name="com.intralot.qa.automation.test.suites.terminal.cancel.Cancel4DScan">
+                <methods>
+                    <include name="QAAU23_32"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

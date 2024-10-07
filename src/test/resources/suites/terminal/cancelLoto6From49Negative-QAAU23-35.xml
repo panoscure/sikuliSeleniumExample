@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="QAAU23_35_cancelLoto6From49Negative">
+    <test name="QAAU23_35_cancelLoto6From49Negative">
+        <classes>
+            <class name="com.intralot.qa.automation.base.test.BaseSetupForApplication"/>
+            <class name="com.intralot.qa.automation.test.suites.terminal.cancel.cancelLoto6From49Negative">
+                <methods>
+                    <include name="QAAU23_35"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
